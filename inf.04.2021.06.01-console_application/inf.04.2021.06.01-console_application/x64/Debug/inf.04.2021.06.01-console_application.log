@@ -1,0 +1,4 @@
+﻿  inf.04.2021.06.01-console_application.cpp
+C:\Users\nasty\source\repos\inf.04.2021.06.01-console_application\inf.04.2021.06.01-console_application\inf.04.2021.06.01-console_application.cpp(18,11): warning C4566: znak przedstawiony przez nazwę zawierającą znaki uniwersalne "\u0142" nie może być przedstawiony w bieżącej stronie kodowej (1251)
+C:\Users\nasty\source\repos\inf.04.2021.06.01-console_application\inf.04.2021.06.01-console_application\inf.04.2021.06.01-console_application.cpp(35,11): warning C4566: znak przedstawiony przez nazwę zawierającą znaki uniwersalne "\u0105" nie może być przedstawiony w bieżącej stronie kodowej (1251)
+  inf.04.2021.06.01-console_application.vcxproj -> C:\Users\nasty\source\repos\inf.04.2021.06.01-console_application\x64\Debug\inf.04.2021.06.01-console_application.exe

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "inf.04.2024.01.01-dekstop_application/1.0.0": {
+        "runtime": {
+          "inf.04.2024.01.01-dekstop_application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "inf.04.2024.01.01-dekstop_application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

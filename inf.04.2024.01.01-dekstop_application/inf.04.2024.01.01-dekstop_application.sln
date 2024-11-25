@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inf.04.2024.01.01-dekstop_application", "inf.04.2024.01.01-dekstop_application\inf.04.2024.01.01-dekstop_application.csproj", "{EF629024-0853-4624-BC2F-6B33C3C76AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF629024-0853-4624-BC2F-6B33C3C76AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF629024-0853-4624-BC2F-6B33C3C76AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF629024-0853-4624-BC2F-6B33C3C76AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF629024-0853-4624-BC2F-6B33C3C76AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C081D1DF-6DD6-4151-89F2-8DCED7D9B0F8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿<Window x:Class="ParcelApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nadaj Przesyłkę, PESEL: 00000000000" Height="300" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Rodzaj przesyłki" Grid.Row="0" Margin="0,0,0,10">
+            <StackPanel>
+                <RadioButton x:Name="rbPostcard" Content="Pocztówka" IsChecked="True"/>
+                <RadioButton x:Name="rbLetter" Content="List"/>
+                <RadioButton x:Name="rbPackage" Content="Paczka"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Dane adresowe" Grid.Row="1" Margin="0,0,0,10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Ulica z numerem:" Grid.Row="0" Grid.Column="0" Margin="0,0,10,5"/>
+                <TextBox x:Name="txtStreet" Grid.Row="0" Grid.Column="1" Margin="0,0,0,5"/>
+
+                <Label Content="Kod pocztowy:" Grid.Row="1" Grid.Column="0" Margin="0,0,10,5"/>
+                <TextBox x:Name="txtPostalCode" Grid.Row="1" Grid.Column="1" Margin="0,0,0,5"/>
+
+                <Label Content="Miasto:" Grid.Row="2" Grid.Column="0" Margin="0,0,10,0"/>
+                <TextBox x:Name="txtCity" Grid.Row="2" Grid.Column="1"/>
+            </Grid>
+        </GroupBox>
+        <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock x:Name="lblPrice" Text="Cena: 1 zł" FontWeight="Bold" FontSize="16" TextAlignment="Center" Margin="0,0,0,10"/>
+            <Button Content="Sprawdź Cenę" Width="100" Click="btnCheckPrice_Click"/>
+            <Button Content="Zatwierdź" Width="100" Margin="0,10,0,0" Click="btnSubmit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

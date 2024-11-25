@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nasty\\source\\repos\\inf_04.2023.01.01-console_application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69674882-FEA5-4D49-9D88-57983AB982E2}|inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.vcxproj|C:\\Users\\nasty\\source\\repos\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69674882-FEA5-4D49-9D88-57983AB982E2}|inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.vcxproj|solutionrelative:inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inf_04.2023.01.01-console_application.cpp",
+              "DocumentMoniker": "C:\\Users\\nasty\\source\\repos\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp",
+              "RelativeDocumentMoniker": "inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp",
+              "ToolTip": "C:\\Users\\nasty\\source\\repos\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp",
+              "RelativeToolTip": "inf_04.2023.01.01-console_application\\inf_04.2023.01.01-console_application.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T10:00:36.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
